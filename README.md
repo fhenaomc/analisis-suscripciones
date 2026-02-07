@@ -57,3 +57,15 @@ No claims are made regarding:
 Unless such claims can be reasonably inferred from observed variables or supported by external studies.
 
 A more comprehensive churn analysis would require customer-facing surveys or qualitative research, which fall outside the scope of the current dataset.
+
+---
+
+## Data Source and Citation
+
+The dataset used in this project is publicly available on Kaggle and should be cited as follows:
+
+**APA citation**
+
+Sagar Ganapaneni. (2022). *Customer Subscription Data* [Data set]. Kaggle.  
+https://doi.org/10.34740/KAGGLE/DS/2290183
+
