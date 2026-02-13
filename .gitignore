@@ -1,0 +1,14 @@
+# Excel temporary files
+~$*.xlsx
+
+# Power BI autosave
+*.pbix.autosave
+
+# Windows system files
+Thumbs.db
+
+# Mac system files
+.DS_Store
+
+# Python cache
+__pycache__/
