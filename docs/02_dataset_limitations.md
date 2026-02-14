@@ -2,29 +2,33 @@
 
 
 
-The dataset contains structured subscription and customer support information but lacks direct behavioral or attitudinal indicators.
+This project focuses on identifying structural patterns associated with subscription cancellation using observable variables.
 
 
 
-Key limitations include:
+The dataset does not include:
 
 
 
-\- No engagement or usage metrics
-
-\- No explicit customer satisfaction indicators
-
-\- No recorded reasons for cancellation
-
-\- Limited demographic depth
-
-\- No longitudinal revenue tracking per customer
+Engagement metrics
 
 
 
-As a result, conclusions must be strictly constrained to observable variables. 
+Customer satisfaction indicators
 
 
 
-No assumptions will be made regarding customer satisfaction, perceived value, competitive positioning, or pricing fairness unless directly supported by available data.
+Explicit cancellation reasons
+
+
+
+Behavioral usage data
+
+
+
+Therefore, conclusions are limited to observable subscription lifecycle and support interaction data.
+
+
+
+No causal claims are made. Identified relationships are interpreted as associations unless otherwise supported by external evidence.
 
