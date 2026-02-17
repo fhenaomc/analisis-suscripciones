@@ -18,7 +18,7 @@ For this project, churn is operationally defined as:
 
 
 
-A customer with a non-null cancel\_date\_time.
+A customer is considered churned if cancel\_date\_time IS NOT NULL.
 
 
 

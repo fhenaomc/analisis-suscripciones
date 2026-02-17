@@ -24,11 +24,11 @@ An analysis cutoff date is defined as:
 
 
 
-MAX(signup\_date\_time, cancel\_date\_time) across the dataset.
+The maximum lifecycle date observed across the dataset (considering both sign-up and cancellation timestamps).
 
 
 
-All duration-based calculations are computed relative to this cutoff.
+All duration-based calculations are computed relative to this cutoff date.
 
 
 
@@ -52,7 +52,7 @@ cutoff\_date - signup\_date\_time
 
 
 
-This represents observed tenure, not lifetime tenure.
+This represents observed tenure, not true lifetime tenure.
 
 
 
@@ -61,6 +61,10 @@ This represents observed tenure, not lifetime tenure.
 
 
 Revenue is measured only over the observed period.
+
+
+
+Because the dataset does not include transaction-level billing records, revenue is estimated using subscription price and billing cycle assumptions.
 
 
 
@@ -120,7 +124,7 @@ Exposure time must be considered when comparing customers.
 
 
 
-Churn early in the lifecycle may signal onboarding issues.
+Churn early in the lifecycle may signal onboarding or activation issues.
 
 
 
@@ -132,7 +136,31 @@ Some churn may occur due to unobservable factors (e.g., perceived value, financi
 
 
 
-7\. Analytical Focus
+7\. Right-Censoring Considerations
+
+
+
+Active customers have incomplete lifetime information at the time of analysis.
+
+
+
+Therefore:
+
+
+
+Observed tenure underestimates true lifetime for active customers.
+
+
+
+Revenue and support metrics for active customers are right-censored.
+
+
+
+Comparisons between churned and active customers must account for exposure time.
+
+
+
+8\. Analytical Focus
 
 
 
