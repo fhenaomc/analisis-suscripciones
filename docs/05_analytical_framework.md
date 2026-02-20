@@ -46,7 +46,8 @@ No projected lifetime revenue is estimated in the initial analysis phase.
 
 Support-related variables are treated as behavioral signals, not causal drivers.
 
-- Key derived variables include:
+Key derived variables include:
+
 - total_cases_lifetime
 - cases_last_30_days_before_churn
 - had_case_last_30_days
