@@ -1,4 +1,12 @@
-Business Context
+\# Operational Definition
+
+
+
+---
+
+
+
+\## Business Context
 
 
 
@@ -6,23 +14,27 @@ The company operates a subscription-based digital financial advisory service off
 
 
 
-From a business perspective, churn represents the loss of an active paying subscriber.
+From a business perspective, \*\*churn\*\* represents the loss of an active paying subscriber.
 
 
 
-Analytical Definition
+---
 
 
 
-For this project, churn is operationally defined as:
+\## Analytical Definition
 
 
 
-A customer is considered churned if cancel\_date\_time IS NOT NULL.
+For this project, \*\*churn\*\* is operationally defined as:
 
 
 
-Customers with a null cancel\_date\_time are considered active at the end of the observation period.
+\- A customer is considered churned if cancel\_date\_time IS NOT NULL.
+
+
+
+\- Customers with a null cancel\_date\_time are considered active at the end of the observation period.
 
 
 
